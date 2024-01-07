@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: 20px auto;
+    background-color: #1F2937;
+    padding: 115px 52px;
+    width: 446px; 
+    height: 320px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #D5D4D8;
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #10B981;
+    color: white;
+    padding: 9px 17px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    /* margin-top: 51px; */
+    cursor: pointer;
+}
+
+.pass-length {
+    display: block;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #10B981;
+    color: white;
+    padding: 9px 17px 9px 15px;
+    width: 158px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 51px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.line {
+    background-color: #2F3E53;
+    border: none;
+    height: 1px;
+    margin-top: 35px;   
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password {
+    font-family: 'Inter';
+    background-color: #273549;
+    height: 39px;
+    width: 211px;
+    border-radius: 5px;
+    color: #55F991;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff474c;
+}
